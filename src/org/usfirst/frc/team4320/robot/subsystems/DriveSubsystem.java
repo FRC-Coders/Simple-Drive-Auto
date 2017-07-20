@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 
 public class DriveSubsystem extends Subsystem{
 	
-	//Defined Talons:
+	//Defined Talons
 	private Talon leftTalon;				
 	private Talon rightTalon;
 	

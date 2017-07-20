@@ -9,7 +9,7 @@ public class DriveByParameters extends TimedCommand {
 	private double timeout;
 	private double speed;
 	private double rotation;
-	//c'tor gets timeout duration(amount of sec' in which the command will be active),speed percentage, and rotation percentage
+	//c'tor gets timeout duration(amount of seconds in which the command will be active),speed percentage, and rotation percentage
 	public DriveByParameters(double timeout,double speed,double rotation) {
 		super(timeout);//starts the counting for timeout
 		// TODO Auto-generated constructor stub

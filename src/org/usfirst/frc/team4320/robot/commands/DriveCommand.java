@@ -32,7 +32,7 @@ public class DriveCommand extends Command{
 		// Called once after isFinished returns true
 		@Override
 		protected void end() {
-			Robot.drivesubsystem.drive(0, 0);//the ROBOT stops
+			Robot.drivesubsystem.drive(0, 0);//the ROBOT stop
 		}
 
 		// Called when another command which requires one or more of the same
